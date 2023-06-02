@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:ital,wght@0,600;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/images/clouds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+}
+.login_txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.login_para {
+  color: grey;
+  font-style: italic;
+}
+form {
+  padding: 50px;
+}
+.login {
+  text-align: left;
+  width: 100%;
+  margin-top: -40px;
+}
+input {
+  margin: auto;
+}
+.fa-solid {
+  margin: 10px;
+}
+.forgot_link {
+  text-decoration: none;
+}
+.btn {
+  width: 100%;
+  margin: 15px 0;
+  height: 50px;
+  background-color: #044aad !important;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white !important;
+}
+.reg_link {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    height: 200px;
+    width: 200px;
+  }
+  .login_txt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -20px;
+  }
+}
